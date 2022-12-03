@@ -10,7 +10,6 @@ import java.util.random.RandomGenerator;
 
 
 @RestController
-@SpringBootApplication
 public class ColorController {
 
     @GetMapping("/color")
@@ -33,8 +32,5 @@ public class ColorController {
         return color;
     }
 
-    public static void main(String[] args) {
-        SpringApplication.run(ColorController.class);
-    }
 
 }
