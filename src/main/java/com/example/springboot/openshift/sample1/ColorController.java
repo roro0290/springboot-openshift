@@ -14,13 +14,13 @@ public class ColorController {
         String color = "";
         RandomGenerator rgen = RandomGenerator.getDefault();
         switch(rgen.nextInt(0,3)){
-            case 1:
+            case 0:
                 color = "red";
                 break;
-            case 2:
+            case 1:
                 color = "blue";
                 break;
-            case 3:
+            case 2:
                 color = "green";
                 break;
             default:
