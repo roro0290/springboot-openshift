@@ -1,5 +1,6 @@
 package com.example.springboot.openshift.sample1;
 
+import com.example.springboot.openshift.Application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
